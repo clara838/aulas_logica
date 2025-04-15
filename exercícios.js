@@ -30,3 +30,7 @@ altura = parseFloat(prompt('digite a altura?'))
 escola = prompt('digite o nome da escola ')
 ano = parseInt(prompt('digite o ano da turma? '))
 console.log(`a aluna ${nomeAluno} tem ${altura} estuda na escola ${escola} no ano de ${ano}`)
+
+nomeProfessor = prompt('digite o nome do professor: ')
+materia = prompt('digite o nome da materia: ')
+anoIngresso = parseInt(prompt('digite o ano de ingresso'))

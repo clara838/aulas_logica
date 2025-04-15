@@ -5,6 +5,3 @@ let cotacao = parseFloat(prompt('Digite a cotacao do dolar'))
 
 let dolares = reais / cotacao;
 console.log(`tenho R$${reais} na minha carteira que equivale a $${ dolares.toFixed(2)}`)
-
-
-

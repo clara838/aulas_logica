@@ -7,7 +7,7 @@ let qtdImpar = 0;
 
 let entrada = 0;
 for(let i = 0; i <= 5; i++){
-    entrada = console.log(Number(prompt("digite um numero: ")))
+    entrada =Number(prompt("digite um numero: "))
     if(entrada % 2 == 0){
         somaPar + entrada;
         qtdPar++

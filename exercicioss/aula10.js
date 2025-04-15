@@ -46,7 +46,7 @@ console.log(`resultado: ${n1 ** n2}`)
 
 //verificar qual letra é igual 
 let letra = prompt('digite uma letra: ').toUpperCase();
-
+//quando usamos switch(variavel), o switch compara o valor da variavel com os cases definidos
 switch(letra){
   case "A":
   case "E":
@@ -57,4 +57,24 @@ console.log('Vogal')
 break:
 default:
 console.log('Consoante')
+}
+
+//converter a nota em numero para letra
+let nota = parseInt(prompt("digite a nota do aluno: "))
+// o switch(true) verifica quais expressoes dentro do case retornam true(verdade), ou seja comparamos as expressoes booleanas
+switch(true){
+    caso nota >= 90:
+    console.log("Nota A");
+    break:
+case nota >= 80:
+    console.log("Nota B");
+    break:
+case nota >= 70:
+    console.log("Nota C");
+    break:
+    case nota >= 60:
+        console.log("Nota D")
+        break:
+        default:
+            console.log("nota E")
 }

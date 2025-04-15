@@ -1,6 +1,5 @@
-console.log(`a multplicacao entre ${nr1} * ${nr2} é igual a ${multiplicacao}`);
+const prompt = require('prompt-sync')()
 
-/*
 //operacoes com variaveias 
 let nr1 = Number (("digite um numero?"));
 let nr2 = Number (("digite um numero?"));
@@ -26,26 +25,17 @@ let desconto = Number(prompt('Digite o preco do desconto '));
 valor = valor - desconto;
 console.log(`o valor do celular com desconto é R$${valor}`)
 
-*/
-
 //calculando o dobro e a metade 
 //passo 1
-let numero = Number(prompt('digite um numero:'))
+let numero = Number(prompt('Digite um numero:'))
 //passo 2
 let dobro = numero * 2;
 //passo 3
 let metade = numero / 2;
 //passo 4
-console.log(`o dobro de ${numero} é ${dobro} e a metade é ${metade}`)
+console.log(`O dobro de ${numero} é ${dobro} e a metade é ${metade}`)
 
-
-//definicao das variaveis 
-let hotras_por_dia = 8;
-let dias_totais = 15;
-let horas_trabalho = horas_por_dia * dias_totais;
-let custo_hora = 100;
-let custo_total = horas_trabalho * custo_total;
-
-//exibir o resultado
-console.log(custo_total);
-
+let horas  = 8  
+let dias = 15
+let valorCobrado = R$100/horas
+console.log(`a hora de trabalho é ${horas} * pelos ${dias} e o valor cobrado é ${valorCobrado}`)
