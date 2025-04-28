@@ -1,6 +1,9 @@
-function tabuada(5, 10, 15, 20, 25, 30, 35, 40, 45, 50)
-let multiplicacao = `${tabuada}`
-return multiplicacao
-
-let resolucao = tabuada(5, 4, 6)
-console.log(resolucao)
+function exibirTabuada(numero){
+    console.log(`tabuada do ${numero}: `)
+    for(let i = 0; i <= 10; i++){
+        console.log(`${numero} X ${i} = ${numero * i}`)
+    }
+}
+exibirTabuada(2)
+exibirTabuada(5)
+exibirTabuada(8)
