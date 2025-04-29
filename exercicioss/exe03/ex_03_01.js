@@ -3,10 +3,10 @@ const prompt = require ('prompt-sync')()
 let numero = prompt('digite um numero: ')
 
 if(numero == 1){
-  console.log('é domingo')
+)
+}  console.log('é domingo')
 }else if (numero == 2){
- console.log('é segunda')
-}else if (numero == 3){
+ console.log('é segunda'else if (numero == 3){
     console.log('é terca')
 }else if (numero == 4){
     console.log('é quarta')
